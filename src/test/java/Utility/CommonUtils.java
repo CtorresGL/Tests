@@ -83,12 +83,7 @@ public class CommonUtils {
 	
 
 	public static Object[][] getdata(String sheetName,String testCase,ExcelReader excel) {
-		//ExcelReader excel=new ExcelReader(System.getProperty("user.dir")+"\\src\\test\\resources\\data\\Suite1.xlsx");
-		//String sheetName="TestData";
-		//String testCase="TestA1";
 		int testCaseRowNum=1;
-		
-		
 		while (!excel.getCellData(sheetName, 0, testCaseRowNum).equalsIgnoreCase(testCase)) {	
 			testCaseRowNum++;
 		}

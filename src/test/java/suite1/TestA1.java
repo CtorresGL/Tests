@@ -18,3 +18,4 @@ public class TestA1 {
 		CommonUtils.checkExecution("Suite1","TestA1", data.get(Constants.TEST_RUNMODE_COL), excel);
 
 }
+}
